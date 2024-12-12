@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+</head>
+<body>
+    <div class="search">
+        <input type="text" placeholder="Enter city name">
+        <button>Search</button>
+    </div>
+
+    <div class="error" style="display: none;">
+        <p>Invalid City Name</p>
+    </div>
+
+    <div class="weather" style="display: none;">
+        <h2 class="city">City</h2>
+        <img src="images/default.png" alt=""  width="200px" height="200px"    class="weather-icon">
+        <h3 class="temp">Temperature</h3>
+        <p class="humidity">Humidity</p>
+        <p class="wind">Wind Speed</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
